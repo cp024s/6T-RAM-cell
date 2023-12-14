@@ -2,7 +2,8 @@
 
 The 6T SRAM (Static Random Access Memory) cell is a fundamental building block of SRAM memory arrays widely used in integrated circuits. It consists of six transistors arranged in a cross-coupled flip-flop configuration. The 6T SRAM cell is known for its stability, simplicity, and fast access times. Here's a brief overview of its structure and operation:
 
-## 1. Structure
+## 1. Construction
+
 1. **Cross-Coupled Inverters:** The heart of the 6T SRAM cell comprises two inverters, typically formed by four transistors (two NMOS and two PMOS). These inverters are connected in a feedback loop, creating a bistable element that can store a binary state (0 or 1).
 
 2. **Access Transistors:** Two additional transistors serve as access transistors. These are used to connect the flip-flop to the bitlines during read and write operations. The bitlines are the pathways through which data is read from or written to the SRAM cell.
